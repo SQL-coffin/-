@@ -1,0 +1,5 @@
+# 树莓派上推荐用 apt 安装 Picamera2 和 pigpio（见 README），这里列的是 pip 依赖
+numpy
+opencv-python-headless  # 需要 --debug 窗口时改装 opencv-python，或用 apt 安装 python3-opencv
+pigpio                  # 仅实车运行需要，测试不需要
+# picamera2             # 用 sudo apt install python3-picamera2 安装，不建议 pip 安装
